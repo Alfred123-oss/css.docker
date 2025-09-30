@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Media-Alfred's Poultry Farm-Kiambu</title>
+  <meta name="description" content="Gallery of images, audio, and videos from Alfred's Poultry Farm in Kiambu." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://alfredpoultryfarm-kiambu.example.com/media.html" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand"><h1>Alfred's Poultry Farm-Kiambu</h1></div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="card">
+      <header><h2>Farm Media Gallery</h2></header>
+
+      <section>
+        <h3>Farm Video</h3>
+        <!-- Responsive video container -->
+        <iframe width="1000" height="500" 
+            src="https://www.youtube.com/embed/3d8QERZcEaI" 
+            title="YouTube video player" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+      </section>
+
+      <section>
+        <h3>Farm Audio</h3>
+        <p>Listen to ambient poultry sounds recorded at the farm:</p>
+        <audio controls>
+          <source src="C:\Users\Admin\OneDrive\Desktop\Alfred\FS2025\IST4035\Course Work\Assgn\IST4035 LAB2\html5-practical\assets\audio\Poultry voice.mp3" type="audio/mpeg">
+          <source src="assets/audio/welcome.ogg" type="audio/ogg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section>
+        <h3>Farm Images</h3>
+
+        <figure>
+          <picture>
+            <source srcset="https://www.ledgerinsights.com/wp-content/uploads/2019/11/chicken-poultry-810x524.jpg" media="(min-width:1000px)">
+            <source srcset="assets/images/hero-medium.jpg" media="(min-width:600px)">
+            <img src="assets/images/hero-small.jpg" alt="Healthy poultry at Alfred’s farm">
+          </picture>
+          <figcaption>Healthy poultry at Alfred’s farm — balanced feed and clean housing.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://www.shutterstock.com/image-photo/happy-adult-male-afro-farmer-600nw-1943192923.jpg" alt="Fresh eggs collection at Alfred’s farm">
+          <figcaption>Fresh eggs being collected and sorted for market.</figcaption>
+        </figure>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <time datetime="2025">2025</time> Alfred's Poultry Farm-Kiambu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
